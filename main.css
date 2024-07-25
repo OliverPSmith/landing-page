@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0 150px;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -10,7 +11,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #152937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0 150px;
+}
 
+header p {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-links {
@@ -27,9 +36,12 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 100px;
-    padding: 100px 16px;
+    padding: 50px 150px;
+
+    background-color: #152937;
+    color: #e5e7eb;
 }
 
 .text {
@@ -39,10 +51,13 @@ header {
 h1 {
     font-size: 48px;
     margin: 0;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 .text p {
     margin: 20px 0;
+    color: #e5e7eb;
     font-size: 18px;
 }
 
@@ -50,4 +65,13 @@ img {
     flex: 0 1 475px;
     height: 225px;
     background-color: grey;
+}
+
+.text button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+    color: #e5e7eb;
+    font-weight: 900;
 }
